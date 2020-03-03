@@ -19,3 +19,4 @@
 // });
 
 Route::get('/','Controller@showlogin')->name('login');
+Route::get('/','Controller@showreg')->name('reg');
