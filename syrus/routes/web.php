@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+// Route::get('/', function () {
+//     return view('login');
+// });
+
+Route::get('/','Controller@showlogin')->name('login');
