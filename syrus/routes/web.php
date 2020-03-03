@@ -18,5 +18,5 @@
 //     return view('login');
 // });
 
-Route::get('/','Controller@showlogin')->name('login');
-Route::get('/','Controller@showreg')->name('reg');
+Route::get('login','Controller@showlogin')->name('login');
+Route::get('reg','Controller@showreg')->name('reg');
